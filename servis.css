@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .service {
+    background-color: #80a8dd;
+    border: 1px solid #599fe0;
+    padding: 20px;
+    border-radius: 8px;
+    flex-basis: 300px;
+  }
+  
+  .service h2 {
+    margin-top: 0;
+  }
+  
+  .service p {
+    margin-bottom: 0;
+  }
+  footer {
+    background-color: #6f87ca;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
